@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Address Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/111f405b91.js"></script>
+</head>
+
+<body>
+    <form action="" class="address-form">
+        <section class="billing">
+            <div class="title">Billing Address</div>
+            <div class="input-wrap">
+                <label for="bl-firstname">First Name</label>
+                <input type="text" id="bl-firstname" name="bl-firstname">
+                <p class="error" ></p>
+            </div>
+            <br>
+            <div class="input-wrap">
+                <label for="bl-lastname">Last Name</label>
+                <input type="text" id="bl-lastname" name="bl-lastname">
+                <p class="error" ></p>
+            </div>
+            <br>
+            <div class="input-wrap">
+                <label for="bl-address">Address</label>
+                <input type="text" id="bl-address" name="bl-address">
+                <p class="error" ></p>
+            </div>
+            <br>
+            <div class="input-wrap">
+                <label for="bl-city">City</label>
+                <input type="text" id="bl-city" name="bl-city">
+                <p class="error" ></p>
+            </div>
+            <br>
+            <div class="input-wrap">
+                <label for="bl-country">Country</label>
+                <input type="text" id="bl-country" name="bl-country">
+                <p class="error" ></p>
+            </div>
+        </section>
+        <div class="match">
+            <label for="match">Ship to the billing address</label>
+            <input type="checkbox" id="match">
+            <p class="error" ></p>
+        </div>
+        <section class="shipping">
+            <div class="title">Shipping Address</div>
+            <div class="input-wrap">
+                <label for="sh-firstname">First Name</label>
+                <input type="text" id="sh-firstname" name="sh-firstname">
+                <p class="error" ></p>
+            </div>
+            <br>
+            <div class="input-wrap">
+                <label for="sh-lastname">Last Name</label>
+                <input type="text" id="sh-lastname" name="sh-lastname">
+                <p class="error" ></p>
+            </div>
+            <br>
+            <div class="input-wrap">
+                <label for="sh-address">Address</label>
+                <input type="text" id="sh-address" name="sh-address">
+                <p class="error" ></p>
+            </div>
+            <br>
+            <div class="input-wrap">
+                <label for="sh-city">City</label>
+                <input type="text" id="sh-city" name="sh-city">
+                <p class="error" ></p>
+            </div>
+            <br>
+            <div class="input-wrap">
+                <label for="sh-country">Country</label>
+                <input type="text" id="sh-country" name="sh-country">
+                <p class="error" ></p>
+            </div>
+        </section>
+        <button type="submit" class="submit-btn" id="submit">Submit</button>
+        <p class="error" ></p>
+    </form>
+    <a class="back" href="../../../forms.html">Back to Menu</a>
+</body>
+
+<script type="text/javascript" src="../../../scripts/validator.js"></script>
+<script type="text/javascript" src="../../../scripts/script.js"></script>
+</html>

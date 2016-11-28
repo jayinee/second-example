@@ -1,0 +1,63 @@
+body {
+	font-size: 16px;
+}
+
+.container {
+	font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+	font-weight: 300;
+	width: 500px;
+	background-color: #F8A434;
+	color: #fff;
+	box-shadow: 3px 3px 10px 0px #ccc;
+	padding-bottom: 40px;
+}
+
+.login input, .login button {
+	font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+	font-weight: 300;
+	
+	display: block;
+	margin: -5px auto;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.login button {
+	width: 30%;
+	margin-top: 15px;
+	color: #fff;
+	background-color: #E96C8E;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+
+.login input {
+	width: 50%;
+	font-size: 1em;
+}
+
+.title {
+	width: 100%;
+	font-size: 2.5em;
+	text-align: center;
+	height: 100px;
+	line-height: 2.5em;
+	text-transform: uppercase;
+}
+.back {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+}
+
+.error i {
+	margin-right: 5px;
+}
+
+.error {
+	font-size: 13px;
+	margin: 10px auto 0 auto;
+	font-weight: bold;
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: 16px;
+    background: url(images/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.container {
+	display: inline-block;
+}
+
+.title {
+	color: #fff;
+	background: rgba(0,0,0,0.4);
+	padding: 5px 20px;
+}
+
+.quote {
+	font-style: italic;
+}
+
+.name, .quote {
+	font-weight: 300;
+}
+
+.menu {
+	margin-top: 10px;
+	background: rgba(0,0,0,0.4);
+	display: block;
+	padding: 10px 20px;
+}
+
+.menu > a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 1.3em;
+	display: block;
+	margin: 10px 0;
+}
+
+.form-list {
+	color: #fff;
+	font-weight: 300;
+}
+
+.form-list li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.form-list li {
+	margin-top: 5px;
+}

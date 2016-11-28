@@ -1,0 +1,150 @@
+body {
+    font-size: 16px;
+    font-family: 'Roboto Mono', 'Arial', sans-serif;
+    font-weight: 100;
+}
+
+input {
+	border: none;
+    background-color: #0B1D29;
+    color: #B4DDE5;
+
+    text-align: right;
+    width: calc(100% - 20px);
+    font-family: 'Roboto Mono', 'Arial', sans-serif;
+
+    
+}
+
+#result {
+    display: block;
+    font-size: 3em;
+    font-weight: 100;
+    padding: 10px;
+    z-index: 0;
+
+}
+
+#history {
+	width: calc(100% - 30px);
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: -5px;
+	padding-bottom: 10px;
+	float: left;
+	z-index: 1;
+}
+
+.input {
+    font-size: 1.5em;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 287px;
+    padding-left: 5px;
+    color: #B4DDE5;
+    padding-top: 28px;
+}
+
+.calculator {
+    width: 245px;
+    height: auto;
+    border: 10px solid black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 12px 0 #999;
+}
+
+.top {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-left: 5px;
+}
+
+.top:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    width: 70%;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.right {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.btn-sm {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+    float: left;
+    cursor: pointer;
+}
+
+.btn-lg {
+    display: inline-block;
+    width: 50px;
+    height: 104px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 108px;
+    margin: 3px;
+    float: left;
+    cursor: pointer;
+}
+
+.light {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0.1s;
+}
+
+.light:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 0.1s;
+}
+
+.dark:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.blue {
+    background-color: rgb(75, 160, 201);
+}
+
+.blue:hover {
+    background-color: rgba(230, 12, 11, 1.0);
+}
+
+#btn-del {
+    font-size: 16px;
+}
+
+#btn-eq {
+    font-weight: 300;
+}
+
+#btn-by {
+    /*margin-top: -4px;*/
+}
+
+.back {
+  position: fixed;
+  bottom: 50px;
+  left: 10px;
+}

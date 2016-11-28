@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/111f405b91.js"></script>
+</head>
+
+<body>
+    <form action="" class="signup">
+        <h1 class="title">Register</h1>
+        <div class="field">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName">
+            <p class="error"></p>
+            <br>
+        </div>
+        <div class="field">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName">
+            <p class="error"></p>
+            <br>
+        </div>
+        <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <p class="error"></p>
+            <br>
+        </div>
+        <div class="field">
+            <label for="birth">Birth</label>
+            <input type="date" id="birth" name="birth" placeholder="mm/dd/yyyy">
+            <br>
+        </div>
+        <div class="field">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <p class="error"></p>
+            <br>
+        </div>
+        <button type="submit" name="submit" id="submit">Sign Up</button>
+        <p class="error"></p>
+    </form>
+    <a class="back" href="../../../forms.html">Back to Menu</a>
+</body>
+<script type="text/javascript" src="../../../scripts/validator.js"></script>
+<script type="text/javascript" src="../../../scripts/script.js"></script>
+
+</html>

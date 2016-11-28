@@ -1,0 +1,74 @@
+body {
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	font-size: 16px;
+}
+
+.card-container {
+	width: 20vw;
+	border-top: 2px solid #D5D5D5;
+	border-left: 2px solid #D5D5D5;
+	border-bottom: 2px solid #D5D5D5;
+	padding: 3vw;
+	background-color: #F6F6F6;
+	border-radius: 3px;
+	position: absolute;
+	right: 0;
+	top: 15vh;
+	height: auto;
+}
+
+.card-title {
+	margin-top: 0;
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+.avatar {
+	width: 60%;
+	display: block;
+	border-radius: 3px;
+}
+
+hr {
+	width: 60%;
+	float: left;
+}
+
+.orange {
+	color: #DDB672;
+}
+
+.red {
+	color: #BA665E;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card-content {
+	font-size: 1.3em;
+	font-weight: 300;
+}
+
+.card-h4 {
+	font-size: 1.2em;
+
+	margin-bottom: 0;
+}
+
+.card-h5 {
+	font-size: 1em;
+}
+
+.card-content {
+	font-size: 1em;
+	color: #9A9A9C;
+	text-align: justify;
+}
+
+.back {
+  position: fixed;
+  bottom: 50px;
+  left: 10px;
+}

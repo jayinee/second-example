@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+
+<body>
+    <section class="prod-list">
+        <h1 class="title">Today's Featured Products</h1>
+        <div id="showCart" class="show-cart hide">SHOW CART</div>
+        <div id="prodContainer" class='products'></div>
+    </section>
+    <section id="cartWrapper" class="cart hide">
+        <div class='cart-container'>
+            <h1 class="title" id="cart-title">Shopping Cart</h1>
+            <a class="close-cart" id="closeCart">CLOSE</a>
+            <div class="cart-items">
+                <ol id="cartItems"></ol>
+                <div class="total-price cart-item" id='total'>
+                    <p>TOTAL</p>
+                    <p id="total-amount" class='total-amount'></p>
+                </div>
+            </div>
+            <div class="cart-controls">
+                <div class="promo">
+                    <p class="promo-text">PROMO CODE:</p>
+                    <input type='text' id='promoCode' class='inset' value=''>
+                    <button id="applyPromo" class="apply-code">Apply</button>
+                </div>
+                <button class="checkout btn green">Checkout</button>
+                <button class="keep-shopping btn orange">Keep Shopping</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <a class="back" href="../../index.html">Back to Main Page</a>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,48 @@
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  background-color: #CF0900;
+  padding: 12px;
+  cursor: pointer;
+
+  text-transform: uppercase;
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  box-shadow: 0 4px 0 0 #760900;
+
+  transition-property: box-shadow, background-color;
+  transition-duration: 0.1s;
+}
+
+.button:hover  {
+	background-color: #F20900;
+	cursor: pointer;
+}
+
+.button:active {
+  box-shadow: 0 2px 0 0 #760900;
+}
+
+.button-sm {
+	font-size: 11px;
+	padding: 10px;
+	box-shadow: 0 3px 0 0 #760900;
+}
+
+.button-md {
+	
+}
+
+.button-lg {
+	font-size: 18px;
+	padding: 14px;
+}
+
+.back {
+  position: fixed;
+  bottom: 50px;
+  left: 10px;
+}

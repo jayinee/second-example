@@ -1,0 +1,118 @@
+body {
+    font-size: 16px;
+}
+
+.scheduler {
+    width: 300px;
+    font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    box-shadow: 3px 3px 10px 0px #999;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+}
+
+.title {
+    background-color: #6D4B6E;
+    padding: 20px;
+    font-size: 1.5em;
+    line-height: 1em;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+
+.form-wrap {
+    border: 1px solid #999;
+    border-radius: 0 0 5px 5px;
+}
+
+.field-wrap {
+    background-color: #6D4B6E;
+    margin: 20px auto 0 auto;
+    width: 80%;
+    display: block;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #6D4B6E;
+}
+
+.msg-wrap {
+    margin: 20px auto 0 auto;
+    width: 80%;
+    display: block;
+    border-radius: 5px;
+    height: 136px;
+}
+
+.msg-label-wrap {
+    background-color: #6D4B6E;
+    margin-bottom: 0;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px 5px 0 0;
+}
+
+textarea {
+    font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+    width: 227px;
+    height: 100px;
+    resize: none;
+    margin-top: 0px;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    border-left: 1px solid #6D4B6E;
+    border-right: 1px solid #6D4B6E;
+    border-bottom: 1px solid #6D4B6E;
+    border-top: none;
+}
+
+input,
+select {
+    font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+    width: 140px;
+    float: right;
+    padding: 5px;
+    height: 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+#zone, #time {
+    height: 30px;
+    width: 150px;
+}
+
+label {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.btn {
+    font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+    background-color: #F16839;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto 20px auto;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.back {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+}
+
+.error {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 300px;
+}

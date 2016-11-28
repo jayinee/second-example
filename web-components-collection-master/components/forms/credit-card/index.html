@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Credit Card</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/111f405b91.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <img class='lock-icon' src='http://tecsicom.net/sica/sys/img/lock.png' alt='secure'>
+            <p class='title-msg'>This is a secure 128-bit SSL Encrypted payment. You're safe.</p>
+        </div>
+        <form action="" class='credit-card'>
+            <div>
+                <div class='field-wrap'>
+                    <label for="name">Name (As on card)</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                    <p class="error"></p>
+                </div>
+                <div class='field-wrap'>
+                    <label for="number">Card number</label>
+                    <br>
+                    <input type="text" id="number" name="number" placeholder='XXXX-XXXX-XXXX-XXXX' maxlength='19'>
+                    <p class="error"></p>
+                </div>
+                <div class='field-wrap date'>
+                    <label for="month">Expiration date</label>
+                    <br>
+                    <select type="text" id="month" name="month">
+                        <option value="" disabled selected>MM</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <p class='slash'>/</p>
+                    <select type="text" id="year" name="year">
+                        <option value="" disabled selected>YY</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                    </select>
+                </div>
+                <div class='cvv-wrap'>
+                    <label for="cvv">CVV</label>
+                    <br>
+                    <input type="text" id="cvv" name="cvv" maxlength='3'>
+                    <p class="error"></p>
+                </div>
+            </div>
+            <button type="submit" class="btn">EXECUTE TRANSACTION</button>
+            <p class="error"></p>
+        </form>
+    </div>
+    <a class="back" href="../../../forms.html">Back to Menu</a>
+</body>
+<script type="text/javascript" src="../../../scripts/validator.js"></script>
+<script type="text/javascript" src="../../../scripts/script.js"></script>
+</html>

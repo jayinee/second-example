@@ -1,0 +1,61 @@
+.container {
+	width: 200px;
+	font-family: "Source Sans Pro", "Helvetica", sans-serif;
+	font-weight: 300;
+	color: #fff;
+	box-shadow: 5px 5px 15px 0px #ccc;
+}
+
+.title {
+	width: 100%;
+	height: 2em;
+	background-color: #1AB188;
+	line-height: 2em;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.questionnaire #other {
+	width: 60%;
+	float: right;
+	margin-right: 20px;
+	background: none;
+	border: none;
+	box-shadow: 0 1px 0 0 #ccc;
+	color: #fff;
+}
+
+.questionnaire {
+	padding-top: 20px;
+	padding-left: 10px;
+	background-color: #24323D;
+}
+
+.questionnaire .field {
+	margin-bottom: 10px;
+}
+
+.field input, .field label {
+	vertical-align: middle;
+}
+
+
+.submit {
+	width: calc(100% - 10px);
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: none;
+	background-color: #1AB188;
+	color: #fff;
+	height: 2em;
+	font-family: "Source Sans Pro", "Helvetica", sans-serif;
+}
+
+.back {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+}

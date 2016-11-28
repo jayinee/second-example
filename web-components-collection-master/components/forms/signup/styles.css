@@ -1,0 +1,78 @@
+body {
+	font-size: 16px;
+}
+
+.signup {
+	width: 270px;
+	padding: 10px 20px 20px 20px;
+	font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+	font-weight: 300;
+	background-color: #EBEBEB;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 3px 3px 3px 0px #ccc;
+}
+
+.title {
+	color: #7F7484;
+	font-weight: 300;
+	border-bottom: 1px solid #7F7484;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.signup .field {
+	margin-top: 30px;
+	background-color: #3A55AE;
+	border-radius: 3px 3px 3px 3px;
+	height: 26px;
+}
+
+
+.signup label {
+	line-height: 2em;
+	text-align: right;
+	font-size: 0.9em;
+	padding-left: 5px;
+}
+
+.signup input {
+	float: right;
+	line-height: 2em;
+	border: none;
+	padding-left: 10px;
+	border-radius: 0 3px 3px 0;
+	width: 170px;
+
+}
+
+.signup button {
+	display: block;
+	margin: 30px auto 0 auto;
+	width: 100px;
+	height: 40px;
+	font-size: 0.9em;
+	font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+	border: none;
+	border-radius: 5px;
+	background-color: #3A55AE;
+	color: #fff;
+	box-shadow: 0px 2px 0 0 #C20900;
+}
+
+.back {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+}
+
+.error {
+	font-size: 12px;
+	font-weight: bolder;
+	margin-top: 5px;
+}
+
+.error i {
+	margin-right: 5px;
+}
